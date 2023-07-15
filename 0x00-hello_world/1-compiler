@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc char cfile=main.c -c -o main.o
