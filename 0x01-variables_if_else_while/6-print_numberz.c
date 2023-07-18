@@ -7,12 +7,14 @@
  */
 int main(void)
 {
-	char digit;
+	int digit;
 
-	for (digit = '0'; digit <= '9'; digit++)
-		putchar(digit);
+	for (digit = 0; digit <= 9; digit++)
+	{
+		putchar(digit + '0');
+	}
 
-	putchar('\n'); /* Prints a new line */
+	putchar('\n');
 
 	return (0);
 }
