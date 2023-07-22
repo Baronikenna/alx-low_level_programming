@@ -1,16 +1,11 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
 int main(void)
 {
-    int n;
-
-    n = add(89, 9);
-    printf("%d\n", n);
-    return (0);
+    int num1 = 10;
+    int num2 = 20;
+    int result = add(num1, num2);
+    printf("Sum: %d\n", result);
+    return 0;
 }
