@@ -1,26 +1,18 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
- * print_last_digit - prints the last digit of a number
- * @n: the number
+ * print_last_digit - Prints the last digit of a number.
+ * @n: The number to find the last digit of.
  *
- * Return: the value of the last digit
+ * Return: The value of the last digit.
  */
 int print_last_digit(int n)
 {
-	int last_digit;
+	int k;
 
-	/* Calculate the absolute value of n in case it's negative */
 	if (n < 0)
-		n = -n;
-
-	/* Calculate the last digit */
-	last_digit = n % 10;
-
-	/* Print the last digit */
-	_putchar(last_digit + '0');
-
-	/* Return the value of the last digit */
-	return (last_digit);
+		k = -1 * (n % 10);
+	else
+		k = n % 10;
+	_putchar('0' + k);
+	return (k);
 }
