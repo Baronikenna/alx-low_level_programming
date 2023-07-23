@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-	int num1 = 1, num2 = 2, next, count;
+	long long int num1 = 1, num2 = 2, next, count;
 
-	printf("%d, %d", num1, num2);
+	printf("%11lld, %11lld", num1, num2);
 	for (count = 3; count <= 50; count++)
 	{
 		next = num1 + num2;
-		printf(", %d", next);
+		printf(", %11lld", next);
 		num1 = num2;
 		num2 = next;
 	}
