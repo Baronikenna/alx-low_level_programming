@@ -8,9 +8,8 @@
 int main(void)
 {
 	long int num1 = 1, num2 = 2, next, count;
-	
-	printf("%ld, %ld", num1, num2);
 
+	printf("%ld, %ld", num1, num2);
 	for (count = 3; count <= 50; count++)
 	{
 		next = num1 + num2;
