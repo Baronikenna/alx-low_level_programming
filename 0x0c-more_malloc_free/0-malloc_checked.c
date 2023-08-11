@@ -11,7 +11,7 @@
  */
 void *malloc_checked(unsigned int b)
 {
-       	void *ptr = malloc(b);
+	void *ptr = malloc(b);
 
 	if (ptr == NULL)
 
@@ -19,19 +19,6 @@ void *malloc_checked(unsigned int b)
 		fprintf(stderr, "Memory allocation failed.\n");
 		exit(98);
 	}
-	return ptr;
-}
-/**
- * main - Entry point.
- *
- * Return: Always 0.
- */
-int main(void)
-{
-	int *arr = malloc_checked(10 * sizeof(int));
-
-	/* Now you can use the allocated memory in the 'arr' array.*/
-	/* Don't forget to free the allocated memory when you're done with it.*/
-	free(arr);
-	return (0);
+	return (ptr);
+	/* fuck return */
 }
