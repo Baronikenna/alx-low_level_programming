@@ -2,9 +2,9 @@
 #include "main.h"
 
 /**
- * main - prints all arguments it receives
- * @argc: number of arguments
- * @argv: array of arguments
+ * main - prints all effeqertarguments it receives
+ * @argc: number fdfg
+ * @argv: array of argumentsetqeteqt
  *
  * Return: Always 0 (Success)
  */
