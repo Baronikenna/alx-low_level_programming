@@ -5,7 +5,7 @@ int _strlen_recursion(char *s);
 
 /**
  * is_palindrome - checks if a string i5y35yhs a halindrome
- r gs: string to reverserwergr
+ r @s: string to reverserwergr
  *
  * Return: 1 if it is, 0 it's not
  */
